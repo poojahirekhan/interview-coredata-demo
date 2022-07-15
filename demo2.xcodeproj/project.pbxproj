@@ -14,6 +14,9 @@
 		EBBBDC61288057630017B541 /* demo2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EBBBDC5F288057630017B541 /* demo2.xcdatamodeld */; };
 		EBBBDC63288057660017B541 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBBBDC62288057660017B541 /* Assets.xcassets */; };
 		EBBBDC66288057660017B541 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBBBDC64288057660017B541 /* LaunchScreen.storyboard */; };
+		EBBBDC6F28805D980017B541 /* Student+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBBDC6D28805D980017B541 /* Student+CoreDataClass.swift */; };
+		EBBBDC7028805D980017B541 /* Student+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBBDC6E28805D980017B541 /* Student+CoreDataProperties.swift */; };
+		EBBBDC7228805E0A0017B541 /* DBHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBBDC7128805E090017B541 /* DBHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		EBBBDC62288057660017B541 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EBBBDC65288057660017B541 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EBBBDC67288057660017B541 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBBBDC6D28805D980017B541 /* Student+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Student+CoreDataClass.swift"; sourceTree = "<group>"; };
+		EBBBDC6E28805D980017B541 /* Student+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Student+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		EBBBDC7128805E090017B541 /* DBHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +48,8 @@
 		EBBBDC4A288057630017B541 = {
 			isa = PBXGroup;
 			children = (
+				EBBBDC6D28805D980017B541 /* Student+CoreDataClass.swift */,
+				EBBBDC6E28805D980017B541 /* Student+CoreDataProperties.swift */,
 				EBBBDC55288057630017B541 /* demo2 */,
 				EBBBDC54288057630017B541 /* Products */,
 			);
@@ -66,6 +74,7 @@
 				EBBBDC64288057660017B541 /* LaunchScreen.storyboard */,
 				EBBBDC67288057660017B541 /* Info.plist */,
 				EBBBDC5F288057630017B541 /* demo2.xcdatamodeld */,
+				EBBBDC7128805E090017B541 /* DBHelper.swift */,
 			);
 			path = demo2;
 			sourceTree = "<group>";
@@ -141,10 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBBBDC7028805D980017B541 /* Student+CoreDataProperties.swift in Sources */,
 				EBBBDC5B288057630017B541 /* ViewController.swift in Sources */,
 				EBBBDC61288057630017B541 /* demo2.xcdatamodeld in Sources */,
+				EBBBDC7228805E0A0017B541 /* DBHelper.swift in Sources */,
 				EBBBDC57288057630017B541 /* AppDelegate.swift in Sources */,
 				EBBBDC59288057630017B541 /* SceneDelegate.swift in Sources */,
+				EBBBDC6F28805D980017B541 /* Student+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
